@@ -62,8 +62,6 @@ Andrés Felipe Gómez
 
 ---
 
-## 🔗 3. Conectar ambos repos 
-
 🔗 Backend del proyecto:
 https://github.com/andresgomez-77/Recursos_Humanos.git
 

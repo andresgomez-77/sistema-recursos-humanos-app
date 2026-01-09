@@ -1,75 +1,69 @@
-# React + TypeScript + Vite
+# Recursos Humanos – Frontend React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación Frontend para la gestión de empleados, desarrollada con React y TypeScript.
 
-Currently, two official plugins are available:
+Este proyecto consume una API REST desarrollada en Spring Boot.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Proyecto educativo basado en el curso de **GlobalMentoring**.
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🚀 Tecnologías
+- React
+- TypeScript
+- Axios
+- React Router DOM
+- Bootstrap
+- Vite
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🔌 Backend API
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+La aplicación consume la API REST:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+````
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+[http://localhost:8080/api/empleados](http://localhost:8080/api/empleados)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+````
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🌍 Deploy en GitHub Pages
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+👉 https://andresgomez-77.github.io/sistema-recursos-humanos-app
+
+⚠️ GitHub Pages solo sirve el frontend.  
+El backend debe ejecutarse localmente o en un servidor externo.
+
+---
+
+## 🏗️ Instalación
+
+```bash
+npm install
+npm run dev
+````
+
+---
+
+## 🎓 Créditos
+
+Proyecto desarrollado como parte del aprendizaje del curso de **GlobalMentoring**.
+
+---
+
+## ✨ Autor
+
+Andrés Felipe Gómez
+
+````
+
+---
+
+## 🔗 3. Conectar ambos repos 
+
+🔗 Backend del proyecto:
+https://github.com/andresgomez-77/Recursos_Humanos.git
+

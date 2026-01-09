@@ -10,4 +10,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: "/sistema-recursos-humanos-app/",
 })
